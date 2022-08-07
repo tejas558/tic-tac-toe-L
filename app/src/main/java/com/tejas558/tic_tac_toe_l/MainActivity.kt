@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             R.id.BNbutton6 -> bnClicked = 6
             R.id.BNbutton7 -> bnClicked = 7
             R.id.BNbutton8 -> bnClicked = 8
-            R.id.BNbutton9 -> bnClicked = 0
+            R.id.BNbutton9 -> bnClicked = 9
         }
         Log.d("You have clicked: ", bnClicked.toString())
         makeGameMove(bnClicked, selectedElement)
